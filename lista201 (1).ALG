@@ -1,23 +1,23 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Adonias 
-// Descrição   : CALCULA O VALOR A SER PAGO PELAS XEROX
-// Autor(a)    : PEDRO MORENO
+// DescriÃ§Ã£o   : CALCULA O VALOR A SER PAGO PELAS XEROX
+// Autor(a)    : Daniel Barreto
 // Data atual  : 02/09/2019
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 copias:inteiro
 valorFinal:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Insira o numero de cópias:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreval("Insira o numero de cÃ³pias:")
 leia(copias)
 se copias <= 100 entao
    valorFinal<-copias*25
    senao
         valorFinal<-copias*20
 fimse
-escreval("O total a pagar é de: ",valorFinal/100, " REAIS")
+escreval("O total a pagar Ã© de: ",valorFinal/100, " REAIS")
 
 Fimalgoritmo
